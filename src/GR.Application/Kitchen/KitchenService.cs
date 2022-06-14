@@ -15,5 +15,23 @@ namespace GR.Kitchen
         {
             this._restaurantOrderTicketManagement = restaurantOrderTicketManagement;
         }
+
+        public void AcceptOrder()
+        {
+
+        }
+
+        public void NoteOrderReadyForPickup()
+        {
+
+        }
+
+        /// <summary>
+        /// 创建票据（后厨工单）
+        /// </summary>
+        public void CreateTicket()
+        {
+
+        }
     }
 }

@@ -15,5 +15,10 @@ namespace GR.Order
         {
             this._orderMamagement = orderMamagement;
         }
+
+        public void CreateOrder()
+        {
+
+        }
     }
 }

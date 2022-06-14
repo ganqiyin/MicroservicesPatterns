@@ -14,5 +14,10 @@ namespace GR.Account
     {
         public AccountService(ConsumerAccounting consumerAccounting, RestaurantAccounting restaurantAccounting, CourierAccounting courierAccounting)
         { }
+
+        public void AuthorizeCard()
+        {
+
+        }
     }
 }

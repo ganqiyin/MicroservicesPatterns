@@ -18,5 +18,18 @@ namespace GR.Consumer
         {
             this._consumerManagement = consumerManagement;
         }
+
+        public void CreateConsumer()
+        {
+
+        }
+
+        /// <summary>
+        /// 验证消费者是否可以下单并获取付款信息
+        /// </summary>
+        public void VerifyConsumerDetail()
+        {
+
+        }
     }
 }
