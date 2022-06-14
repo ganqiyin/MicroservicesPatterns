@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GR.Domain.Supplier;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,10 @@ namespace GR.Restaurant
 {
     public class RestaurantService
     {
+        private readonly RestaurantInfoManagement _restaurantInfoManagement;
+
+        public RestaurantService(RestaurantInfoManagement restaurantInfoManagement) {
+            this._restaurantInfoManagement = restaurantInfoManagement;
+        }
     }
 }
