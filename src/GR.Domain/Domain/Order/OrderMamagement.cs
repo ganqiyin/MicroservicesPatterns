@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace GR.Domain.Order
 {
-    internal class OrderMamagement
+    /// <summary>
+    /// 订单获取和履行：创建和管理订单
+    /// </summary>
+    public class OrderMamagement
     {
     }
 }
